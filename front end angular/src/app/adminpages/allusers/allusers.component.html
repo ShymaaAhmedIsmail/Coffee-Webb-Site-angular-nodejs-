@@ -1,0 +1,42 @@
+
+    <table class="table table-striped table-bordered">
+        <thead class="bg-thead py-3">
+          
+            <th>
+               First Name  
+            </th>
+            <th>
+                Last Name  
+             </th>
+             <th>
+              Email  
+             </th>
+             <th>
+                Gender 
+             </th>
+             <th>
+                Country code
+             </th>
+             <th>
+                phone 
+             </th>
+        </thead>
+        <tbody *ngFor="let user of allusers ">
+           <tr class="text-brown-light">
+            
+            <td>{{user.fName}}</td>
+            <td>{{user.lName}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.gender}}</td>
+          
+            <td>{{user.countryCode}}</td>
+            <td>{{user.phone}}</td>
+
+
+
+
+           </tr>
+        </tbody>
+    </table>
+   
+

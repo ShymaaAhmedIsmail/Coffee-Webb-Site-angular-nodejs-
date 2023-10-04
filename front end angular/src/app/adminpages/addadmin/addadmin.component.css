@@ -1,0 +1,22 @@
+.dOfBirth{
+    margin-left: 16% !important;
+}
+.w-30{
+    width: 28.5% !important;
+}
+.ms4{
+    margin-left: 3.5%;
+}
+input[type=radio] {
+    accent-color: rgb(57, 50, 9);
+}
+.log{
+    background-color:rgb(105 78 43) ;
+    color: white;
+}
+.log:hover{
+    background-color: transparent;
+  
+    border: solid 1px rgb(105 78 43) ;
+    color: rgb(57, 46, 26);
+}
